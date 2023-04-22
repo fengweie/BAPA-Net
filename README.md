@@ -1,4 +1,4 @@
-# A Pytorch Implementation of BAPA-Net: Boundary Adaptation and Prototype Alignment for Cross-domain Semantic Segmentation (ICCV 2021 oral)
+# A Pytorch Implementation of Automated segmentation of choroidal neovascularization on optical coherence tomography angiography images of neovascular age-related macular degeneration patients based on deep learning (Journal of Big Data)
 
 ## Requirements
 `pip3 install -r requirements.txt`
@@ -11,11 +11,11 @@
 - Example of testing a model with domain adaptation with CityScapes as target domain(***class_num=16***)
     `python3 evaluateUDA.py --model-path *checkpoint.pth* --class-num 16`
 
-## Checkpoints
+<!-- ## Checkpoints
 
-We provide the checkpoints at [Google Drive](https://drive.google.com/drive/folders/1d6guGc5gw6jrkxNJ25NPzx2fgH4LK4Ox?usp=sharing).
+We provide the checkpoints at [Google Drive](https://drive.google.com/drive/folders/1d6guGc5gw6jrkxNJ25NPzx2fgH4LK4Ox?usp=sharing). -->
 
-## Citation
+<!-- ## Citation
 ```
 @InProceedings{Liu_2021_ICCV,
 author = {Liu, Yahao and Deng, Jihong and Gao, Xinchen and Li, Wen and Duan, Lixin},
@@ -24,9 +24,9 @@ booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
 month = {October},
 year = {2021}
 }
-```
-## Acknowledgements
-Some codes are adapted from [DACS](https://github.com/vikolss/DACS) and [UDADT](https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment). We thank them for their excellent projects.
+``` -->
+<!-- ## Acknowledgements
+Some codes are adapted from [DACS](https://github.com/vikolss/DACS) and [UDADT](https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment). We thank them for their excellent projects. -->
 
-## Contact
-- lyhaolive@gmail.com
+<!-- ## Contact
+- lyhaolive@gmail.com -->
